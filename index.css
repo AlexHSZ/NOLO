@@ -55,11 +55,12 @@ nav {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 45%;
 }
 
 .nav-links li {
     list-style: none;
+    padding: 15px 0;
 }
 
 .nav-links a {
@@ -67,6 +68,26 @@ nav {
     font-size: 14px;
     font-weight: bold;
     color: white;
+    position: relative;
+    padding: 15px;
+}
+
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-links a:hover:after {
+    width: 100%; 
+    left: 0;
 }
 
 #signup {
@@ -80,6 +101,10 @@ nav {
     text-decoration: none;
 }
 
+#signup:hover:after {
+    width: 0px;
+}
+
 #involve {
     padding: 10px;
     background-color: rgb(0, 74, 173);
@@ -89,12 +114,11 @@ nav {
 #involve:hover {
     background-color: rgb(0, 88, 204);
     text-decoration: none;
+    border: none;
 }
 
-.nav-links a:hover {
-    text-decoration: underline;
-    font-size: 14px;
-    font-weight: bold;
+#involve:hover:after {
+    width: 0px;
 }
 
 .logo {
