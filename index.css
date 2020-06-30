@@ -1,18 +1,40 @@
 html, body {
+    background-color: white;
+    background-repeat: no-repeat;
+	background-size: cover;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
+body {
+    animation: fadeInAnimation ease 1.5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
+
 header {
-	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url("../NOLO/images/golden-gate.jpg");
-    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0)),url("../NOLO/images/golden-gate.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1;
 }
+
 
 .name {
     color: white;
@@ -27,6 +49,7 @@ nav {
     overflow: hidden;
     /* background-color: rgba(0,0,0,0.1); */
     font-family: 'Poppins', sans-serif;
+    z-index: 9999;
 }
 
 .nav-links {
@@ -75,9 +98,11 @@ nav {
 }
 
 .logo {
-    margin-top: 18%;
-    width: auto;
-	height: 200px;
+    position: relative;
+    margin-top: 20%;
+    z-index: 9999;
+    /* width: auto;
+	height: 200px; */
 }
 
 .logo h1 {
@@ -104,11 +129,13 @@ nav {
     background: none !important;
     border: none;
     outline: none;
+    cursor: pointer;
 }
   
 .nav-icon:after, 
 .nav-icon:before, 
 .nav-icon div {
+    
     background-color: white;
     border-radius: 3px;
     content: '';
@@ -128,4 +155,60 @@ nav {
 
 .nav-icon.is-active div {
     transform: scale(0);
+}
+
+.info {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    padding: 50px;
+    background-color: white;
+    /* background-size: cover; */
+}
+
+.why {
+    padding: 25px;
+    width: 30%;
+    border-radius: 15px;
+    background-color: rgb(255, 22, 22);
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
+.info h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.who {
+    padding: 25px;
+    width: 30%;
+    margin-top: 50px;
+    position: relative;
+    float: right;
+    border-radius: 15px;
+    background-color: rgb(255, 22, 22);
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
+.who h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.help {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    padding: 25px;
+    background-color: rgb(255, 22, 22);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    align-items: center;
 }
