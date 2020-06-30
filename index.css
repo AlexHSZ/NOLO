@@ -99,9 +99,12 @@ nav {
 }
 
 .nav-icon {
-    margin: 1em;
-    width: 30px;
-  }
+    margin: 5px;
+    width: 40px;
+    background: none !important;
+    border: none;
+    outline: none;
+}
   
 .nav-icon:after, 
 .nav-icon:before, 
