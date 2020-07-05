@@ -204,7 +204,7 @@ a:after {
 .fade-in {
     width: 100%;
     height: 400px;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     text-align: center;
     opacity: 0;
     transform: translateY(50px);
@@ -248,27 +248,57 @@ a:after {
 
 
 
-.help {
+.help-container {
     position: relative;
-    box-sizing: border-box;
-    display: flex;
-    padding: 25px;
-    background-color: rgb(255, 22, 22);
+    background-color: rgb(69, 69, 69);
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    height: 350px;
     color: white;
+}
+
+.help-container h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.help-container li {
+    width: 30%;
+    padding: 50px 20px 0 20px;
+    /* vertical-align: top; */
+    font-size: 30px;
+    float: left;
+    list-style: none;
+}
+
+.help-container span {
+    color: rgb(255, 22, 22);
+}
+
+.help-container ul li:nth-child(1) {
+    text-align: center;
+    align-items: left;
+}
+
+.help-container ul li:nth-child(2) {
+    text-align: center;
     align-items: center;
+}
+
+.help-container ul li:nth-child(3) {
+    text-align: center;
+    align-items: right;
 }
 
 .wave {
     position: absolute;
-    bottom: -110px;
+    bottom: 0;
     left: 0;
 }
 
 footer {
-    background-color: rgb(50,50,50);
-    color: white;
+    /* background-color: rgb(50,50,50); */
+    color: rgb(148, 148, 148);
     position: relative;
     height: 100px;
     font-family: 'Poppins', sans-serif;
