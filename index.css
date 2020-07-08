@@ -38,11 +38,6 @@ header {
     z-index: -1;
 }
 
-.name {
-    color: white;
-    font-size: 25px;
-}
-
 .logo {
     padding-top: 50px;
     width: 220px;
