@@ -348,7 +348,23 @@ footer {
     height: 100px;
     font-family: 'Poppins', sans-serif;
     clear: both;
-    padding: 40px 40px 40px 40px;
+    /* padding: 60px; */
+    padding-left: 40px;
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-media a {
+    color: rgb(154, 160, 166);
+    margin-right: 15px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: rgb(148, 148, 148); 
 }
 
 footer h1 {
@@ -361,5 +377,6 @@ footer h2 {
 
 footer p {
     font-size: 12px;
+    padding-bottom: 10px;
 }
 
