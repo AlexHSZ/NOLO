@@ -348,7 +348,7 @@ footer {
     height: 100px;
     font-family: 'Poppins', sans-serif;
     clear: both;
-    padding: 40px 40px 10px 40px;
+    padding: 40px 40px 40px 40px;
 }
 
 footer h1 {
@@ -357,5 +357,9 @@ footer h1 {
 
 footer h2 {
     font-size: 14px;
+}
+
+footer p {
+    font-size: 12px;
 }
 
