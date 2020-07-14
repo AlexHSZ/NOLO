@@ -317,6 +317,7 @@ a:after {
 .how-container {
     position: relative;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 50px;
 }
 
 .how-container h1 {
@@ -371,10 +372,14 @@ footer {
     clear: both;
     /* padding: 60px; */
     padding-left: 40px;
+    justify-content: space-between;
 }
 
-.social-media {
-    margin: 20px 0;
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 15px;
 }
 
 .social-media a {
@@ -396,8 +401,37 @@ footer h2 {
     font-size: 14px;
 }
 
+hr {
+    width: 95%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.right-col {
+    margin-right: 100px;
+}
+
+.add-info a {
+    text-decoration: none;
+    color: rgb(102, 106, 110); 
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.add-info a:hover {
+    color: rgb(60, 64, 68);
+}
+
 footer p {
     font-size: 12px;
     padding-bottom: 10px;
+}
+
+.rights-text {
+    text-align: center;
 }
 
