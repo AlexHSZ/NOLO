@@ -195,9 +195,9 @@ a:after {
 
 .blob {
     position: absolute;
-    width: 650px;
-    bottom: 10%;
-    right: 10%;
+    width: 700px;
+    bottom: 2%;
+    right: 8%;
     z-index: 2;
 }
 
