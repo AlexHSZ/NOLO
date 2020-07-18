@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -272,15 +273,34 @@ a:after {
     color: white;
 }
 
-.blur {
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(5px);
-}
-
 .help-container h1 {
     padding-top: 50px;
     text-align: center;
     font-size: 50px;
+}
+
+section .blur {
+    position: relative;
+    padding: 50px;
+    overflow: hidden;
+    z-index: 20;
+}
+
+section .blur:before {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(255,255,255,0)), url("images/golden-gate.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    filter: blur(5px); 
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    z-index: -1;
 }
 
 .help-list ul {
@@ -446,5 +466,29 @@ footer p {
 
 .rights-text {
     text-align: center;
+}
+
+.bg-image {
+    background-image: url("images/golden-gate.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
 }
 
