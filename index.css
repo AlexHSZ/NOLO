@@ -55,6 +55,7 @@ header {
 nav {
     height: 12vh;
     font-family: 'Poppins', sans-serif;
+    z-index: 99;
 }
 
 .nav-links {
@@ -92,6 +93,7 @@ a:after {
 .nav-links a:hover:after {
     width: 100%; 
     left: 0;
+    z-index: 5;
 }
 
 #signup {
@@ -141,16 +143,6 @@ a:after {
         display: none;
     }
 }
-
-/* .nav-icon {
-    margin: 5px;
-    width: 40px;
-    background: none !important;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    display: none;
-} */
   
 .nav-icon {
     position: absolute;
@@ -196,10 +188,10 @@ a:after {
 
 .blob {
     position: absolute;
-    width: 700px;
+    width: 600px;
     bottom: 2%;
     right: 8%;
-    z-index: 2;
+    /* z-index: -1; */
 }
 
 #network {
@@ -466,29 +458,5 @@ footer p {
 
 .rights-text {
     text-align: center;
-}
-
-.bg-image {
-    background-image: url("images/golden-gate.jpg");
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-
-    height: 100%;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  z-index: 2;
-  width: 100%;
-  padding: 20px;
-  text-align: center;
 }
 
