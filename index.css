@@ -356,14 +356,14 @@ section .blur:before {
 }
 
 .how-img-list li {
-    width: 350px;
+    width: 450px;
     padding: 0 40px 0 40px;
     display: inline-table;
 }
 
 .how-img-list img {
-    height: 85%;
-    width: 85%;
+    height: 100%;
+    width: 100%;
 }
 
 .how-img-list h4 {
