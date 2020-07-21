@@ -55,6 +55,7 @@ header {
 nav {
     height: 12vh;
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.03em;
     z-index: 99;
 }
 
@@ -266,9 +267,11 @@ a:after {
 }
 
 .help-container h1 {
+    font-family: 'Staatliches', cursive;
     padding-top: 50px;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
+    letter-spacing: 0.1em;
 }
 
 section .blur {
@@ -345,9 +348,11 @@ section .blur:before {
 }
 
 .how-container h1 {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 0.05em;
     padding: 75px 0 75px 0;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .how-img-list ul {
@@ -388,15 +393,22 @@ section .blur:before {
 }
 
 .gofundme-container {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 0.05em;
     margin: 10vh;
 }
 
 .gofundme-container h1 {
     text-align: center;
     padding: 30px;
-    font-size: 40px;
+    font-size: 42px;
+    font-weight: 500;
 }
+
+strong {
+    font-weight: bold;
+}
+
 
 footer {
     background-color: rgb(84,84,84);
