@@ -387,6 +387,17 @@ section .blur:before {
     width: 300px;
 }
 
+.gofundme-container {
+    font-family: 'Poppins', sans-serif;
+    margin: 10vh;
+}
+
+.gofundme-container h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
 footer {
     background-color: rgb(84,84,84);
     color: rgb(184, 184, 184);
