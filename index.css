@@ -27,7 +27,7 @@ body {
     } 
 } 
 
-header {
+.header-index {
     background-image: linear-gradient(-90deg,rgb(0, 74, 173), rgb(255,22,22));
     background-position: center;
     background-repeat: no-repeat;
@@ -202,18 +202,6 @@ a:after {
     right: 10%;
     max-width: 40%;
     height: auto;
-}
-
-.coalition-container {
-    position: absolute;
-    bottom: 130px;
-    left: 0;
-    width: 100%;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.coalition-container h1 {
-    text-align: center;
 }
 
 .info {
@@ -482,4 +470,42 @@ footer p {
 .rights-text {
     text-align: center;
 }
+
+/*
+    Coalition CSS Section
+*/
+
+
+.header-coalition {
+    background-color: rgb(84,84,84);
+}
+
+.coalition-container {
+    background-image: url(https://www.cloudflare.com/img/about/people/people-lunch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    color: black;
+}
+
+.coalition-background {
+    height: 400px;
+}
+
+.coalition-title {
+    font-family: 'Staatliches', cursive;
+    padding: 75px 0;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.coalition-title h1 {
+    font-size: 70px;
+}
+
+.coalition-title h3 {
+    font-size: 50px;
+}
+
 
