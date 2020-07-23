@@ -509,7 +509,7 @@ footer p {
 .coalition-gallery {
     position: relative;
     height: auto;
-    width: 90%;
+    width: 60%;
     margin: auto;
     padding: 45px 0 45px 0;
     display: grid;
@@ -527,9 +527,9 @@ footer p {
 
 .coalition-gallery .coalition-img img {
     position: relative;
-    width: 250px;
+    width: 200px;
     height: auto;
-    max-height: 250px;
+    max-height: 200px;
     overflow: hidden;
 }
 
