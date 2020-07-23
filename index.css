@@ -480,12 +480,10 @@ footer p {
     background-color: rgb(84,84,84);
 }
 
-.coalition-container {
+.coalition-title-container {
     background-image: url(https://www.cloudflare.com/img/about/people/people-lunch.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    box-sizing: border-box;
-    color: black;
 }
 
 .coalition-background {
@@ -494,7 +492,7 @@ footer p {
 
 .coalition-title {
     font-family: 'Staatliches', cursive;
-    padding: 75px 0;
+    padding-top: 7%; 
     text-align: center;
     letter-spacing: 0.05em;
     color: white;
