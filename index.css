@@ -481,7 +481,7 @@ footer p {
 }
 
 .coalition-title-container {
-    background-image: url(https://www.cloudflare.com/img/about/people/people-lunch.jpg);
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url(https://www.cloudflare.com/img/about/people/people-lunch.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -494,16 +494,16 @@ footer p {
     font-family: 'Staatliches', cursive;
     padding-top: 7%; 
     text-align: center;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.075em;
     color: white;
 }
 
 .coalition-title h1 {
-    font-size: 70px;
+    font-size: 75px;
 }
 
 .coalition-title h3 {
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .coalition-gallery {
