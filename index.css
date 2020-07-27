@@ -525,6 +525,7 @@ footer p {
     max-height: 200px;
     overflow: hidden;
     padding: 10px;
+    background-color: white;
 }
 
 .coalition-gallery .coalition-img img:hover {
