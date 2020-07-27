@@ -520,9 +520,9 @@ footer p {
 
 .coalition-gallery .coalition-img img {
     position: relative;
-    width: 200px;
+    width: 220px;
     height: auto;
-    max-height: 200px;
+    max-height: 220px;
     overflow: hidden;
     padding: 10px;
     background-color: white;
